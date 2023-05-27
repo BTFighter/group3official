@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROEL Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/features.css">  
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-family: serif; font-size: 28px;">GROUP 3</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="active nav-link text-white" href="features.html">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="active nav-link text-white" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br><br><br><br>
+<!-- Carousel-->
+<div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/features/Proel.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="img/features/Text.png" class="d-block w-100" > 
+    </div>
+    <div class="carousel-item">
+      <img src="img/features/graphic.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="img/features/animation.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="img/features/Video.png" class="d-block w-100" >
+    </div>
+     <div class="carousel-item">
+      <img src="img/features/typroel.png" class="d-block w-100" >
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<div class="main">
+
+    <!-- CARDS NI BAI-->
+   <center>
+
+
+<div class="cards">
+      <div class="image">
+        <img src="img/features/mobapp.jpg">
+  </div>
+  <div class="title">
+    <h4>MOBAPP</h4>
+  </div>
+  <div class="description">
+    <p> to develop a cross-platform mobile application using the C#.</p>
+    <a href="mobapp.html">
+    <button>Click here to browse</button>
+</a>
+  </div>
+</div>
+
+<div class="cards">
+      <div class="image">
+        <img src="img/features/koko.png">
+  </div>
+  <div class="title">
+    <h4>DASTRU</h4>
+  </div>
+  <div class="description">
+    <p> Understand the principles of animation and different apps of multimedia.</p>
+    <a href="features.html">
+    <button>Click here to browse</button>
+</a>
+  </div>
+</div>
+</center>
+ 
+    <!--- END SA FEATURES  -------->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+  </body>
+</html>
